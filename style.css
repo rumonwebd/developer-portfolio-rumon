@@ -6,7 +6,7 @@ h1{
     font-size: 50px ;
 }
 .title-name{
-    color:orange;
+    color:rgb(248, 164, 9);
 }
 .flexible-container{
     display: flex;
@@ -20,11 +20,12 @@ h1{
 }
 .half-width img{
     width: 100%;
+    
 }
 .link-button{
     text-decoration: none;
     background-image: linear-gradient(orange, red);
-    padding: 10px 20px;
+    padding: 10px 50px;
     border-radius: 5px;
     color: aliceblue;
     font-weight: 400;
@@ -32,4 +33,39 @@ h1{
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.box-shadow{
+    box-shadow: 5px 5px 20px rgb(179, 175, 175);
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 40px;
+    padding-bottom: 50px;
+    
+}
+h2{
+    font-size: 40px;
+}
+.Experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#border-first{
+    border-left: 5px solid;
+    border-image: linear-gradient( rgb(214, 74, 214), rgb(125, 41, 234)) 1;
+    border-radius: 3px;
+}
+#border-second{
+    border-left: 5px solid transparent;
+    border-image: linear-gradient( rgb(214, 74, 214), rgb(125, 41, 234)) 1;
+    border-radius: 4px;
+    
+}
+#footer{
+    text-align: center;
+    color: darkgrey;
+
+
 }
