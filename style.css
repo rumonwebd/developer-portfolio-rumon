@@ -34,6 +34,7 @@ h1{
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+    margin: 0;
 }
 .box-shadow{
     box-shadow: 5px 5px 20px rgb(179, 175, 175);
